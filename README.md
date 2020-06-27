@@ -23,13 +23,13 @@ This challenge is called foodfy, we have to develop a complete website for a rec
 This project was developed to train my skills in front-end with the following technologies:
 
 ### FRONT-END
--  [HTML][HTML]
--  [CSS][CSS]
--  [Java-Script][Java-Script]
+-  HTML
+-  CSS
+-  Java-Script
 
 ### BACK-END
--  [Nunjucks][Nunjucks]
--  [Java-Script][Java-Script]
+-  Nunjucks
+-  Java-Script
 
 
 ## :information_source: How To Use
