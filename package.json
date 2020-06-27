@@ -1,0 +1,27 @@
+{
+  "name": "foodfy",
+  "version": "1.0.0",
+  "description": "Take your culinary skills to the next level. Cook, Explore & Manage Recipes.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseAvilaa/foodfy.git"
+  },
+  "keywords": [],
+  "author": "Jessé Ávila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesseAvilaa/foodfy"
+  },
+  "homepage": "https://github.com/JesseAvilaa/foodfy",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

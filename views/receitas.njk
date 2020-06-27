@@ -1,0 +1,22 @@
+{% extends 'layout.njk' %}
+
+{%block title%}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <title>Foodfy - Receitas</title>
+    {%endblock%}
+{%block content%}
+        <section class="mais-acessadas">
+                <div class="cards-acessadas">
+                    {%for item in items%}
+                    <div class="card-acessadas" id="{{item.id}}" name="{{item.title}}" name2="{{item.author}}">
+                        <img src="{{item.image}}" alt="">
+                        <h3>{{item.title}}</h3>
+                        <p>{{item.author}}</p>
+                    </div>
+                 {%endfor%}  
+                </div>
+        </section>
+       
+        <script src="script.js"></script>
+{%endblock%}
