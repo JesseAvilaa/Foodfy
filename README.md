@@ -36,7 +36,7 @@ This project was developed to train my skills in front-end with the following te
 
 To clone and run this application, you'll need [Git](https://gitforwindows.org/), [Node.js v12.18.0][nodejs] or higher installed on your computer and the [First Project](https://github.com/JesseAvilaa/Foodfy). From your command line:
 
-### Install NLW
+### Install
 ```bash
 
 # Go into the Foodfy path
